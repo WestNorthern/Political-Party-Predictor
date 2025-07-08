@@ -33,33 +33,25 @@ You can build and run the app on **macOS / Linux** or **Windows**. Pick your ins
    ```bash
    ./build.sh
    ```
-   - Removes any existing `bin/` folder.
-   - Recompiles all `src/**/*.java` into `bin/` and includes any JARs under `lib/`.
 
 3. **Run** the app:  
    ```bash
    ./run.sh
    ```
-   - Uses `:` as the classpath separator to load `bin/` and everything in `lib/`.
 
 ---
 
 ### Windows (cmd.exe)
 
-1. Open a **Command Prompt** in the project root.
-
-2. **Build** the project:  
+1. **Build** the project:  
    ```batch
    build.bat
    ```
-   - Recursively compiles `src\**\*.java` into `bin\`, using `;` as the classpath separator.
 
-3. **Run** the app:  
+2. **Run** the app:  
    ```batch
    run.bat
    ```
-   - Launches `src.Main` and pauses the console afterward so you can read the output.
-
 
 ## CLI Usage
 

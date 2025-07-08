@@ -1,0 +1,636 @@
+[
+  {
+    "prompt": "What should the government do to help the poor?",
+    "options": [
+      {
+        "text": "Expand social welfare programs.",
+        "weights": {
+          "DEMOCRATIC_ESTABLISHMENT": 0.9,
+          "DEMOCRATIC_SOCIALIST": 1.0
+        }
+      },
+      {
+        "text": "Allow school choice with education vouchers.",
+        "weights": {
+          "ESTABLISHMENT_REPUBLICAN": 0.7,
+          "TRUMP_REPUBLICAN": 0.5
+        }
+      },
+      {
+        "text": "Provide tax incentives to businesses hiring low-income workers.",
+        "weights": {
+          "ESTABLISHMENT_REPUBLICAN": 0.8,
+          "TRUMP_REPUBLICAN": 0.7
+        }
+      },
+      {
+        "text": "Support faith-based and community organizations.",
+        "weights": {
+          "DEMOCRATIC_ESTABLISHMENT": 0.6,
+          "GREEN": 0.4
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "How should the country approach healthcare?",
+    "options": [
+      {
+        "text": "Implement universal healthcare.",
+        "weights": {
+          "DEMOCRATIC_SOCIALIST": 1.0,
+          "DEMOCRATIC_ESTABLISHMENT": 0.8
+        }
+      },
+      {
+        "text": "Encourage private sector competition.",
+        "weights": {
+          "ESTABLISHMENT_REPUBLICAN": 0.9,
+          "TRUMP_REPUBLICAN": 0.6
+        }
+      },
+      {
+        "text": "Adopt a public-private hybrid insurance model.",
+        "weights": {
+          "DEMOCRATIC_ESTABLISHMENT": 0.7,
+          "ESTABLISHMENT_REPUBLICAN": 0.6
+        }
+      },
+      {
+        "text": "Leave healthcare market-driven with minimal regulation.",
+        "weights": {
+          "TRUMP_REPUBLICAN": 0.9,
+          "ESTABLISHMENT_REPUBLICAN": 0.8
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What is your stance on climate change?",
+    "options": [
+      {
+        "text": "Take aggressive action to combat it.",
+        "weights": {
+          "DEMOCRATIC_SOCIALIST": 1.0,
+          "DEMOCRATIC_ESTABLISHMENT": 0.8,
+          "GREEN": 1.0
+        }
+      },
+      {
+        "text": "Focus on economic growth over climate regulations.",
+        "weights": {
+          "TRUMP_REPUBLICAN": 0.9,
+          "ESTABLISHMENT_REPUBLICAN": 0.7
+        }
+      },
+      {
+        "text": "Invest in clean-tech R&D while balancing jobs.",
+        "weights": {
+          "DEMOCRATIC_ESTABLISHMENT": 0.7,
+          "GREEN": 0.8,
+          "ESTABLISHMENT_REPUBLICAN": 0.5
+        }
+      },
+      {
+        "text": "Deny human contribution and roll back climate policies.",
+        "weights": {
+          "TRUMP_REPUBLICAN": 0.8,
+          "ESTABLISHMENT_REPUBLICAN": 0.6
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Should the government do something to keep kids from going hungry?",
+    "options": [
+      {
+        "text": "Expand school meal programs nationwide.",
+        "weights": {
+          "DEMOCRATIC_SOCIALIST": 1.0,
+          "DEMOCRATIC_ESTABLISHMENT": 0.8
+        }
+      },
+      {
+        "text": "Provide direct cash transfers to low-income families.",
+        "weights": {
+          "DEMOCRATIC_SOCIALIST": 0.9,
+          "DEMOCRATIC_ESTABLISHMENT": 0.7
+        }
+      },
+      {
+        "text": "Leave it to private charities and nonprofits.",
+        "weights": {
+          "ESTABLISHMENT_REPUBLICAN": 0.6,
+          "TRUMP_REPUBLICAN": 0.5
+        }
+      },
+      {
+        "text": "Emphasize personal responsibility over government aid.",
+        "weights": {
+          "TRUMP_REPUBLICAN": 0.8,
+          "ESTABLISHMENT_REPUBLICAN": 0.7
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Should America side with Russia or Ukraine?",
+    "options": [
+      {
+        "text": "Fully support Ukraine with military aid.",
+        "weights": {
+          "DEMOCRATIC_ESTABLISHMENT": 0.8,
+          "DEMOCRATIC_SOCIALIST": 0.7
+        }
+      },
+      {
+        "text": "Impose sanctions but avoid direct military involvement.",
+        "weights": {
+          "ESTABLISHMENT_REPUBLICAN": 0.5,
+          "DEMOCRATIC_ESTABLISHMENT": 0.6
+        }
+      },
+      {
+        "text": "Remain neutral and pursue diplomatic solutions.",
+        "weights": {
+          "GREEN": 0.8,
+          "ESTABLISHMENT_REPUBLICAN": 0.4
+        }
+      },
+      {
+        "text": "Align with Russia to counter NATO expansion.",
+        "weights": {
+          "TRUMP_REPUBLICAN": 0.7,
+          "ESTABLISHMENT_REPUBLICAN": 0.6
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What is the future of energy?",
+    "options": [
+      {
+        "text": "Renewable energy (wind, solar, hydro).",
+        "weights": {
+          "DEMOCRATIC_SOCIALIST": 1.0,
+          "DEMOCRATIC_ESTABLISHMENT": 0.8,
+          "GREEN": 1.0
+        }
+      },
+      {
+        "text": "Continue relying on coal and oil.",
+        "weights": {
+          "TRUMP_REPUBLICAN": 0.9,
+          "ESTABLISHMENT_REPUBLICAN": 0.7
+        }
+      },
+      {
+        "text": "Expand nuclear power as clean base load.",
+        "weights": {
+          "ESTABLISHMENT_REPUBLICAN": 0.6,
+          "DEMOCRATIC_ESTABLISHMENT": 0.5,
+          "GREEN": 0.7
+        }
+      },
+      {
+        "text": "Use natural gas as a transitional bridge fuel.",
+        "weights": {
+          "ESTABLISHMENT_REPUBLICAN": 0.7,
+          "TRUMP_REPUBLICAN": 0.6
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "How do you feel about ICE (immigration enforcement)?",
+    "options": [
+      {
+        "text": "Abolish ICE and replace with community-based alternatives.",
+        "weights": {
+          "DEMOCRATIC_SOCIALIST": 1.0,
+          "GREEN": 0.8
+        }
+      },
+      {
+        "text": "Reform ICE with stricter oversight and training.",
+        "weights": {
+          "DEMOCRATIC_ESTABLISHMENT": 0.7,
+          "ESTABLISHMENT_REPUBLICAN": 0.5
+        }
+      },
+      {
+        "text": "Maintain ICE to enforce existing immigration laws.",
+        "weights": {
+          "ESTABLISHMENT_REPUBLICAN": 0.8,
+          "TRUMP_REPUBLICAN": 0.7
+        }
+      },
+      {
+        "text": "Expand ICE authority and funding.",
+        "weights": {
+          "TRUMP_REPUBLICAN": 1.0,
+          "ESTABLISHMENT_REPUBLICAN": 0.9
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Should taxes on the wealthy be increased?",
+    "options": [
+      {
+        "text": "Yes, raise taxes on top earners to fund social programs.",
+        "weights": {
+          "DEMOCRATIC_SOCIALIST": 1.0,
+          "DEMOCRATIC_ESTABLISHMENT": 0.9
+        }
+      },
+      {
+        "text": "Introduce a flat tax rate across all incomes.",
+        "weights": {
+          "ESTABLISHMENT_REPUBLICAN": 0.7,
+          "TRUMP_REPUBLICAN": 0.6
+        }
+      },
+      {
+        "text": "No, taxing the wealthy discourages investment.",
+        "weights": {
+          "TRUMP_REPUBLICAN": 0.9,
+          "ESTABLISHMENT_REPUBLICAN": 0.8
+        }
+      },
+      {
+        "text": "Simplify the code without raising rates.",
+        "weights": {
+          "ESTABLISHMENT_REPUBLICAN": 0.6,
+          "DEMOCRATIC_ESTABLISHMENT": 0.4
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "How should policing be handled in the U.S.?",
+    "options": [
+      {
+        "text": "Defund and demilitarize the police.",
+        "weights": {
+          "DEMOCRATIC_SOCIALIST": 1.0,
+          "GREEN": 0.8
+        }
+      },
+      {
+        "text": "Increase funding and support for law enforcement.",
+        "weights": {
+          "TRUMP_REPUBLICAN": 1.0,
+          "ESTABLISHMENT_REPUBLICAN": 0.8
+        }
+      },
+      {
+        "text": "Implement community-policing reforms.",
+        "weights": {
+          "DEMOCRATIC_ESTABLISHMENT": 0.7,
+          "GREEN": 0.6
+        }
+      },
+      {
+        "text": "Privatize non-core functions like traffic patrol.",
+        "weights": {
+          "ESTABLISHMENT_REPUBLICAN": 0.6,
+          "TRUMP_REPUBLICAN": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Do you believe systemic racism exists?",
+    "options": [
+      {
+        "text": "Yes, and we need structural change.",
+        "weights": {
+          "DEMOCRATIC_SOCIALIST": 1.0,
+          "DEMOCRATIC_ESTABLISHMENT": 0.7
+        }
+      },
+      {
+        "text": "No, everyone has equal opportunity today.",
+        "weights": {
+          "TRUMP_REPUBLICAN": 1.0,
+          "ESTABLISHMENT_REPUBLICAN": 0.8
+        }
+      },
+      {
+        "text": "It was a major issue historically but not now.",
+        "weights": {
+          "ESTABLISHMENT_REPUBLICAN": 0.6,
+          "DEMOCRATIC_ESTABLISHMENT": 0.5
+        }
+      },
+      {
+        "text": "Some problems remain, focus on economic gaps.",
+        "weights": {
+          "DEMOCRATIC_ESTABLISHMENT": 0.6,
+          "GREEN": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Should transgender individuals be allowed to serve openly in the military?",
+    "options": [
+      {
+        "text": "Yes, gender identity should not restrict service.",
+        "weights": {
+          "DEMOCRATIC_SOCIALIST": 1.0,
+          "DEMOCRATIC_ESTABLISHMENT": 0.8
+        }
+      },
+      {
+        "text": "No, it undermines readiness.",
+        "weights": {
+          "TRUMP_REPUBLICAN": 1.0
+        }
+      },
+      {
+        "text": "Allow them if they meet strict medical and readiness standards.",
+        "weights": {
+          "ESTABLISHMENT_REPUBLICAN": 0.6,
+          "TRUMP_REPUBLICAN": 0.5
+        }
+      },
+      {
+        "text": "Let each service branch decide policy independently.",
+        "weights": {
+          "ESTABLISHMENT_REPUBLICAN": 0.7,
+          "DEMOCRATIC_ESTABLISHMENT": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "How should voting be handled?",
+    "options": [
+      {
+        "text": "Automatic registration and mail-in ballots.",
+        "weights": {
+          "DEMOCRATIC_ESTABLISHMENT": 0.8,
+          "DEMOCRATIC_SOCIALIST": 1.0
+        }
+      },
+      {
+        "text": "Implement strict voter ID laws and limit early voting.",
+        "weights": {
+          "TRUMP_REPUBLICAN": 1.0,
+          "ESTABLISHMENT_REPUBLICAN": 0.7
+        }
+      },
+      {
+        "text": "Make election day a national holiday.",
+        "weights": {
+          "GREEN": 0.7,
+          "DEMOCRATIC_ESTABLISHMENT": 0.5
+        }
+      },
+      {
+        "text": "Offer secure online voting options.",
+        "weights": {
+          "DEMOCRATIC_SOCIALIST": 0.8,
+          "DEMOCRATIC_ESTABLISHMENT": 0.6,
+          "GREEN": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What role should religion play in government?",
+    "options": [
+      {
+        "text": "Strict separation of church and state.",
+        "weights": {
+          "DEMOCRATIC_SOCIALIST": 1.0,
+          "GREEN": 0.7
+        }
+      },
+      {
+        "text": "Christian values should guide policy.",
+        "weights": {
+          "TRUMP_REPUBLICAN": 1.0,
+          "ESTABLISHMENT_REPUBLICAN": 0.8
+        }
+      },
+      {
+        "text": "Allow religious displays but no official endorsement.",
+        "weights": {
+          "DEMOCRATIC_ESTABLISHMENT": 0.6,
+          "ESTABLISHMENT_REPUBLICAN": 0.5
+        }
+      },
+      {
+        "text": "Use faith-based initiatives in social services.",
+        "weights": {
+          "DEMOCRATIC_ESTABLISHMENT": 0.7,
+          "TRUMP_REPUBLICAN": 0.6
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What should be done about student loan debt?",
+    "options": [
+      {
+        "text": "Forgive most or all student loan debt.",
+        "weights": {
+          "DEMOCRATIC_SOCIALIST": 1.0,
+          "GREEN": 0.9
+        }
+      },
+      {
+        "text": "Refinance loans at lower rates.",
+        "weights": {
+          "DEMOCRATIC_ESTABLISHMENT": 0.7,
+          "GREEN": 0.6
+        }
+      },
+      {
+        "text": "Require borrowers to repay in full.",
+        "weights": {
+          "ESTABLISHMENT_REPUBLICAN": 1.0,
+          "TRUMP_REPUBLICAN": 0.9
+        }
+      },
+      {
+        "text": "Cap tuition costs at public universities.",
+        "weights": {
+          "DEMOCRATIC_ESTABLISHMENT": 0.8,
+          "DEMOCRATIC_SOCIALIST": 0.6
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "Should marijuana be legalized nationally?",
+    "options": [
+      {
+        "text": "Yes, for both medical and recreational use.",
+        "weights": {
+          "DEMOCRATIC_SOCIALIST": 1.0,
+          "GREEN": 1.0
+        }
+      },
+      {
+        "text": "Yes, but only for medical use.",
+        "weights": {
+          "DEMOCRATIC_ESTABLISHMENT": 0.7,
+          "GREEN": 0.8
+        }
+      },
+      {
+        "text": "No, it’s a dangerous gateway drug.",
+        "weights": {
+          "TRUMP_REPUBLICAN": 1.0,
+          "ESTABLISHMENT_REPUBLICAN": 0.9
+        }
+      },
+      {
+        "text": "Decriminalize possession but restrict sales.",
+        "weights": {
+          "DEMOCRATIC_SOCIALIST": 0.8,
+          "DEMOCRATIC_ESTABLISHMENT": 0.6
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "How should America handle gun control?",
+    "options": [
+      {
+        "text": "Ban assault weapons and expand background checks.",
+        "weights": {
+          "DEMOCRATIC_SOCIALIST": 1.0,
+          "DEMOCRATIC_ESTABLISHMENT": 0.9
+        }
+      },
+      {
+        "text": "Protect Second Amendment rights with minimal restrictions.",
+        "weights": {
+          "TRUMP_REPUBLICAN": 1.0,
+          "ESTABLISHMENT_REPUBLICAN": 0.9
+        }
+      },
+      {
+        "text": "Implement red-flag laws and mental health screenings.",
+        "weights": {
+          "DEMOCRATIC_ESTABLISHMENT": 0.8,
+          "GREEN": 0.7
+        }
+      },
+      {
+        "text": "Require mandatory training and certification for gun owners.",
+        "weights": {
+          "DEMOCRATIC_ESTABLISHMENT": 0.7,
+          "ESTABLISHMENT_REPUBLICAN": 0.6
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What should U.S. immigration policy focus on?",
+    "options": [
+      {
+        "text": "Create a path to citizenship for undocumented immigrants.",
+        "weights": {
+          "DEMOCRATIC_SOCIALIST": 1.0,
+          "DEMOCRATIC_ESTABLISHMENT": 0.9
+        }
+      },
+      {
+        "text": "Tighten border control and reduce immigration.",
+        "weights": {
+          "TRUMP_REPUBLICAN": 1.0,
+          "ESTABLISHMENT_REPUBLICAN": 0.9
+        }
+      },
+      {
+        "text": "Increase visa quotas for skilled workers.",
+        "weights": {
+          "ESTABLISHMENT_REPUBLICAN": 0.6,
+          "DEMOCRATIC_ESTABLISHMENT": 0.7
+        }
+      },
+      {
+        "text": "Implement guest-worker programs with oversight.",
+        "weights": {
+          "DEMOCRATIC_ESTABLISHMENT": 0.6,
+          "GREEN": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "What should the U.S. do about Guantanamo Bay?",
+    "options": [
+      {
+        "text": "Close and repurpose Guantanamo Bay detention facility.",
+        "weights": {
+          "DEMOCRATIC_SOCIALIST": 1.0,
+          "DEMOCRATIC_ESTABLISHMENT": 0.8,
+          "GREEN": 0.9
+        }
+      },
+      {
+        "text": "Continue operating under the current military commissions.",
+        "weights": {
+          "TRUMP_REPUBLICAN": 0.9,
+          "ESTABLISHMENT_REPUBLICAN": 0.7
+        }
+      },
+      {
+        "text": "Transfer detainees to federal civilian courts for trial.",
+        "weights": {
+          "DEMOCRATIC_ESTABLISHMENT": 0.7,
+          "DEMOCRATIC_SOCIALIST": 0.6,
+          "GREEN": 0.5
+        }
+      },
+      {
+        "text": "Increase security measures and expand its use for national security.",
+        "weights": {
+          "TRUMP_REPUBLICAN": 0.8,
+          "ESTABLISHMENT_REPUBLICAN": 0.9
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "How should the U.S. use drone strikes?",
+    "options": [
+      {
+        "text": "Prohibit all drone strikes as violations of sovereignty.",
+        "weights": {
+          "DEMOCRATIC_SOCIALIST": 1.0,
+          "GREEN": 0.9
+        }
+      },
+      {
+        "text": "Permit drone strikes only under strict international oversight.",
+        "weights": {
+          "DEMOCRATIC_ESTABLISHMENT": 0.8,
+          "DEMOCRATIC_SOCIALIST": 0.6,
+          "GREEN": 0.7
+        }
+      },
+      {
+        "text": "Authorize expanded use of drone strikes for counterterrorism without restriction.",
+        "weights": {
+          "TRUMP_REPUBLICAN": 1.0,
+          "ESTABLISHMENT_REPUBLICAN": 0.9
+        }
+      },
+      {
+        "text": "Require case-by-case Congressional approval for each strike.",
+        "weights": {
+          "ESTABLISHMENT_REPUBLICAN": 0.8,
+          "DEMOCRATIC_ESTABLISHMENT": 0.7
+        }
+      }
+    ]
+  }
+]
